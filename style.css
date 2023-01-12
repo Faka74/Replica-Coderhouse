@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerFlex {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fondoMitadIzquierda {
+    width: 50%;
+    height: 100%;
+    background-color: #1f2023;
+}
+
+.fondoMitadDerecha {
+    background-image: url(./img/FondoDerechoPractico.png);
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+.containerCoderMitadIzquierda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+
+.imgCoderMitadIzquierda {
+    width: 280px;
+    height: 60px;
+}
+
+.containerFormCorreo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 30px 30px;
+}
+
+.containerFormContraseña {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin: 0px 0px 30px 30px;
+}
+
+.inputContainerForm {
+    width: 90%;
+    height: 42px;
+    background-color: #2e2f36;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.labelLogin {
+    color: white;
+}
+
+input::placeholder {
+    color: #b1b6ba;
+}
+
+.labelLogin {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.containerButtonSubmit {
+    width: 100%;
+    margin-left: 33px;
+}
+
+.btnSubmit {
+    width: 91%;
+    height: 47px;
+    border-radius: 8px;
+    background-color: #cbdd5f;
+    font-size: 15px;
+    color: rgb(64, 64, 64);
+    transition: all 0.2s;
+}
+
+.btnSubmit a{
+    text-decoration: none;
+    color: #2e2f36;
+}
+
+.btnSubmit:hover {
+    background-color: #eaff6a;
+}
+
+.pOculto {
+    visibility: hidden;
+}
+
+input,
+textarea {
+    color: #b1b6ba;
+    padding-left: 10px;
+}
+
+.pCentrados {
+    text-align: center;
+    margin: 20px 35px 0px 35px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+.pCentrados a {
+    color: #dff665;
+    text-decoration: none;
+}
+
+.pYellow {
+    color: #dff665;
+}
+
+.pWhite {
+    color: white;
+}
+
+.containerFormCorreo2 {
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 30px 30px;
+}
+
+.inputContainerForm2 {
+    height: 42px;
+    background-color: #2e2f36;
+    border: none;
+    border-radius: 8px;
+}
+
+.colorBlanco {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.marginIzquierdo {
+    margin-left: 30px;
+}
+
+div h2 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.colorGris {
+    color: #b1b6ba;
+}
+
+.fuenteCorreo{
+    font-size:13px;
+    margin-bottom: 10px;
+}
+
+#ocultarInfo{
+    display: none;
+}
