@@ -3,6 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: #1f2023;
 }
 
 .containerFlex {
@@ -40,15 +41,14 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 30px 30px;
+    margin: 0px 0px 15px 20px;
 }
 
 .containerFormContraseña {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    margin: 0px 0px 30px 30px;
+    margin: 0px 0px 15px 20px;
 }
 
 .inputContainerForm {
@@ -60,22 +60,19 @@ body {
     outline: none;
 }
 
-.labelLogin {
-    color: white;
-}
-
 input::placeholder {
     color: #b1b6ba;
 }
 
 .labelLogin {
-    margin-bottom: 15px;
+    color: white;
     font-size: 13px;
+    padding-bottom: 10px;
 }
 
 .containerButtonSubmit {
     width: 100%;
-    margin-left: 33px;
+    margin-left: 23px;
 }
 
 .btnSubmit {
@@ -88,7 +85,7 @@ input::placeholder {
     transition: all 0.2s;
 }
 
-.btnSubmit a{
+.btnSubmit a {
     text-decoration: none;
     color: #2e2f36;
 }
@@ -109,7 +106,8 @@ textarea {
 
 .pCentrados {
     text-align: center;
-    margin: 20px 35px 0px 35px;
+    padding-right: 30px;
+    padding-left: 30px;
     line-height: 2;
     cursor: pointer;
 }
@@ -159,11 +157,42 @@ div h2 {
     color: #b1b6ba;
 }
 
-.fuenteCorreo{
-    font-size:13px;
+.fuenteCorreo {
+    font-size: 13px;
     margin-bottom: 10px;
 }
 
-#ocultarInfo{
+#ocultarInfo {
     display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .fondoMitadDerecha {
+        display: none;
+    }
+
+    .fondoMitadIzquierda {
+        width: 90%;
+        margin-left: 50px;
+        height: 100%;
+        background-color: #1f2023;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .fondoMitadIzquierda {
+        width: 80%;
+        margin-left: 50px;
+        height: 100%;
+        background-color: #1f2023;
+    }
+}
+@media screen and (max-width:480px) {
+    .fondoMitadIzquierda {
+        width: 90%;
+        margin-left: 20px;
+        height: 100%;
+        background-color: #1f2023;
+    }
 }
