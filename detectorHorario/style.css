@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(45deg, #B6C1D4, #EC68B1);
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.containerHijo {
+    text-align: center;
+    font-size: 40px;
+    width: 50%;
+    height: 25%;
+    padding-bottom: 30px;
+    background: rgba(250, 244, 244, 0.208);
+    border-radius: 16px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.4px);
+    -webkit-backdrop-filter: blur(13.4px);
+    border: 1px solid rgba(255, 255, 255, 0.72);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .containerHijo {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerHijo {
+        font-size: 36px;
+        height: 40%;
+    }
+}

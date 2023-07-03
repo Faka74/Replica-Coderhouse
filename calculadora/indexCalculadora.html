@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleCalculadora.css">
+    <title>Calculadora Por Facundo Taddia</title>
+</head>
+
+<body>
+    <div class="containerh2">
+        <h2><a href="../index.html">Volver a inicio</a></h2>
+    </div>
+    <div class="container">
+        <form name="calculator" class="bordeCalculadora">
+            <div class="divInputContenido">
+                <input name="ans" value="" id="contenidoCuenta" type="text">
+            </div>
+            <div class="containerFlexearCalculadora">
+                <div class="containerNumeros">
+                    <input class="boton" id="botonUno" type="button" value="1">
+                    <input class="boton" id="botonDos" type="button" value="2">
+                    <input class="boton" id="botonTres" type="button" value="3">
+                    <input class="boton" id="botonCuatro" type="button" value="4">
+                    <input class="boton" id="botonCinco" type="button" value="5">
+                    <input class="boton" id="botonSeis" type="button" value="6">
+                    <input class="boton" id="botonSiete" type="button" value="7">
+                    <input class="boton" id="botonOcho" type="button" value="8">
+                    <input class="boton" id="botonNueve" type="button" value="9">
+                    <input class="boton" id="botonCero" type="button" value="0">
+                </div>
+                <div class="containerOperadores">
+                    <div>
+                        <input class="boton" id="botonMas" type="button" value="+">
+                        <input class="boton" id="botonMenos" type="button" value="-">
+                        <input class="boton" id="botonMultiplicar" type="button" value="*">
+                    </div>
+                    <div class="mitadIzquierdaOperadores">
+                        <input class="boton" id="botonDividir" type="button" value="/">
+                        <input class="boton" id="botonReset" type="reset" value="C">
+                        <input class="boton" id="botonIgual" type="button" value="=">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="indexCalculadora.js"></script>
+</body>
+
+</html>
